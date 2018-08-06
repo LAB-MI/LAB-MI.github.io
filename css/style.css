@@ -803,15 +803,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 130px;
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #team .member h4 {
-  font-weight: 700;
+  font-weight: 350;
   margin-bottom: 2px;
   font-size: 18px;
 }
