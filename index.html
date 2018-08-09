@@ -15,16 +15,16 @@
 <link href="lib/animate/animate.min.css" rel="stylesheet">
 <!-- feuilles de style -->
 <link href="css/style.css" rel="stylesheet">
+<link href="css/_style.css" rel="stylesheet">
 </head>
 <body>
 <!-- debut header -->
 <header id="header">
   <div class="container">
-    <div id="logo" class="pull-left"> <a href="#haut"><img src="img/logo_metiers/lab_logo_b_p1.png" alt="" title="" /></img></a>
-    </div>
+    <div id="logo" class="pull-left"> <a href="#haut"><img src="img/logo_metiers/lab_logo_b_p.png" alt="" title="" /></img></a> </div>
     <!-- debut nav-menu-container -->
-    <nav id="nav-menu-container">
-      <ul class="nav-menu">
+<nav id="nav-menu-container">
+      <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
         <li class="menu-active"><a href="#haut">Accueil</a></li>
         <li><a href="#about">Le LAB</a></li>
         <li><a href="#services">Nos startups</a></li>
@@ -51,16 +51,17 @@
         -->
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
-    <!-- fin nav-menu-container -->
+    </nav>    <!-- fin nav-menu-container -->
   </div>
 </header>
 <!-- fin header -->
 <!-- debut section haut -->
 <section id="haut">
   <div class="haut-container">
-    <h1>Le LAB<br>du Ministère de l'Intérieur</h1>
-    <h2>Ecouter, Tester, Transformer </h2>
+
+    <h1>Le LAB<br>
+      du Ministère de l'Intérieur</h1>
+    <h2>Ecouter, Tester, Transformer</h2>
     <a href="#about" class="btn-get-started">Commencez</a> </div>
 </section>
 <!-- fin section haut -->
@@ -72,94 +73,61 @@
       <div class="row about-container">
         <div class="col-lg-6 content order-lg-1 order-2">
           <h3 class="title">Le pitch du LAB MI</h3>
-          <p> Depuis mars 2018,le LAB MI accueille et fait grandir les startup issues des propositions d'intrapreneu(r)(ses) du ministère de l'intérieur. Les produits ainsi développés s'inscrivent dans la stratégie de transformation numérique du minitére en apportant des solutions innovantes aux usager et aux agents. </p>
-          <div class="icon-box wow fadeInUp">
+          <p> Depuis mars 2018,le LAB MI accueille et fait grandir les startup issues des propositions d'intrapreneu·r·ses du ministère de l'intérieur. Les produits ainsi développés s'inscrivent dans la stratégie de transformation numérique du minitére en apportant des solutions innovantes aux usager et aux agents. </p>
+          <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <div class="icon"><i class="fa fa-flask" aria-hidden="true"></i></div>
-            <h4 class="title"> Le LAB MI n'est pas une DSI </h3>
-            <p class="description"> Le cycle de vie d’une startup se termine par son intégration à coût marginal dans le système d’information du ministère de l'intérieur. Elle contribue ainsi à le transformer en lui transférant les principes des méthodes agiles & lean, d'équipe pluridisciplinaire intégrée, de design par la confiance etc. Pour cela, les agents du SI sont inclus au plus tôt dans les startup afin d'anticiper au mieux cette reprise. </p>
+            <h4 class="title"> Le LAB MI n'est pas une DSI </h4>
+            <p class="description"> Le cycle de vie d’une startup se termine par son intégration à coût marginal dans le système d’information du ministère de l'intérieur. Elle contribue ainsi à le transformer en lui transférant les principes des méthodes agiles &amp; lean, d'équipe pluridisciplinaire intégrée, de design par la confiance etc. Pour cela, les agents du SI sont inclus au plus tôt dans les startup afin d'anticiper au mieux cette reprise. </p>
             <p class="description"><b> Le LAB MI est donc responsable d’un flux de produits numériques et non le dépositaire d’un stock.</b> </p>
           </div>
-          <div class="icon-box wow fadeInUp">
+          <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-            <h4 class="title"> L'écosystème </h3>
-            <p class="description"> Le LAB MI fait partie de l’écosystème beta.gouv.fr qui réunit depuis 2013 de nombreux incubateurs autonomes. Dans ce sens, nous partageons les mêmes objectifs et les mêmes valeurs. Notre ambition est d'amener à l’excellence les individus que nous accueillons – quel que soit leur rôle : responsable de produit, informaticien(ne), coach, designer, chargé(e)   de développement… – pour construire les services publics les plus utiles à nos concitoyens. </p>
+            <h4 class="title"> L'écosystème </h4>
+            <p class="description"> Le LAB MI fait partie de l’écosystème beta.gouv.fr qui réunit depuis 2013 de nombreux incubateurs autonomes. Dans ce sens, nous partageons les mêmes objectifs et les mêmes valeurs. Notre ambition est d'amener à l’excellence les individus que nous accueillons – quel que soit leur rôle : responsable de produit, informaticien·ne, coach, designer, chargé·e de développement… – pour construire les services publics les plus utiles à nos concitoyens. </p>
             <p class="description"> Cet engagement est décrit dans le manifeste d'un incubateur disponible sur le site<a href="https://beta.gouv.fr/incubateurs/" target="_blank"> beta.gouv.fr.</a> </p>
           </div>
-
         </div>
-        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"></div>
       </div>
     </div>
   </section>
   <!-- fin section about -->
-
-  <!-- debut section facts -->
-  <!--
-  <section id="facts">
-    <div class="container wow fadeIn">
-      <div class="section-header">
-        <h3 class="section-title">Quelques chiffres</h3>
-        <p class="section-description"></p>
-      </div>
-      <div class="row counters">
-        <div class="col-lg-3 col-6 text-center"> <span data-toggle="counter-up">8</span>
-          <p>Mois d'existance</p>
-        </div>
-        <div class="col-lg-3 col-6 text-center"> <span data-toggle="counter-up">3</span>
-          <p>Startup</p>
-        </div>
-        <div class="col-lg-3 col-6 text-center"> <span data-toggle="counter-up">14</span>
-          <p>Personnes</p>
-        </div>
-        <div class="col-lg-3 col-6 text-center"> <span data-toggle="counter-up">15</span>
-          <p>Travailleurs acharnés</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  -->
-  <!-- fin section facts -->
-
   <!-- debut section services -->
   <section id="services">
-    <div class="container wow fadeIn">
+    <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
       <div class="section-header">
         <h3 class="section-title">Nos startups</h3>
         <p class="section-description">Nos startups en cours de développement</p>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
           <div class="box">
             <div class="icon"><a href="https://histovec.interieur.gouv.fr" aria-label="une voiture"target="_blank"><i class="fa fa-car" aria-hidden="true"></i></a></div>
-            <h4 class="title"><a href="https://histovec.interieur.gouv.fr"target="_blank">Histovec</a></h4>
-
+            <h4 class="title"><a href="https://histovec.interieur.gouv.fr">Histovec</a></h4>
             <p class="description">Acheter un véhicule d'occasion en confiance en connaissant son historique.</p>
-            <a href="" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-          </div>
+            <a href="#" aria-label="github" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
           <div class="box">
-            <div class="icon"><a href="" aria-label="Point d'exclamation" target="_blank"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></a></div>
-            <h4 class="title"><a href=""target="_blank">Polex</a></h4>
+            <div class="icon"><a href="#" aria-label="Point d'exclamation" target="_blank"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></a></div>
+            <h4 class="title"><a href="#">Polex</a></h4>
             <p class="description">Détecter les fraudes organisées à l'examen du code de la route.</p>
-            <a href="" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-          </div>
+            <a href="#" aria-label="github" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
           <div class="box">
-            <div class="icon"><a href="" aria-label="Permis de conduire" target="_blank"><i class="fa fa-id-card-o" aria-hidden="true"></i></a></div>
-            <h4 class="title"><a href=""target="_blank">Candilib</a></h4>
+            <div class="icon"><a href="https://github.com/LAB-MI/candilib" aria-label="Permis de conduire" target="_blank"><i class="fa fa-id-card-o" aria-hidden="true"></i></a></div>
+            <h4 class="title"><a href="#">Candilib</a></h4>
             <p class="description">Outiller le passage en candidat libre à l'épreuve pratique du permis de conduire.</p>
-            <a href="https://github.com/LAB-MI/candilib" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-          </div>
+            <a href="https://github.com/LAB-MI/candilib" aria-label="github" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> </div>
         </div>
       </div>
     </div>
   </section>
   <!-- fin section services -->
   <!-- debut section call-to-action -->
-  <section id="call-to-action">
-    <div class="container wow fadeIn">
+<section id="call-to-action">
+    <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
       <div class="row">
         <div class="col-lg-9 text-center text-lg-left">
           <h3 class="cta-title">Appel à l'action</h3>
@@ -173,102 +141,63 @@
         <div class="col-lg-3 cta-btn-container text-center"> <a class="cta-btn align-middle" href="#contact">Appel à l'action</a> </div>
       </div>
     </div>
-  </section>
-  <!-- fin section call-to-action -->
+  </section>  <!-- fin section call-to-action -->
   <!-- debut section portfolio -->
   <section id="portfolio">
     <div class="container wow fadeInUp">
       <div class="section-header">
-        <h3 class="section-title">Photos</h3>
+        <h3 class="section-title">Photo</h3>
         <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
       </div>
       <div class="row">
         <div class="col-lg-12">
           <ul id="portfolio-flters">
-            <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-            <li data-filter=".filter-app">Application</li>
-            <li data-filter=".filter-card">Carte</li>
-            <li data-filter=".filter-logo">Logo</li>
+            <li data-filter=".filter-histovec, .filter-polex, .filter-candilib, .filter-web" class="filter-active">All</li>
+            <li data-filter=".filter-histovec">Histovec</li>
+            <li data-filter=".filter-polex">Polex</li>
+            <li data-filter=".filter-candilib">Candilib</li>
             <li data-filter=".filter-web">Web</li>
           </ul>
         </div>
       </div>
-      
       <div class="row" id="portfolio-wrapper">
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app"> <a href="img/portfolio/photo1.jpg"> <img src="img/portfolio/photo1_mini3.jpg" alt="">
+        <div class="col-lg-3 col-md-6 portfolio-item filter-candilib"> <a href="img/portfolio/photo1.jpg"> <img src="img/portfolio/photo1_mini.jpg" alt="">
           <div class="details">
-            <h4>Application 1</h4>
+            <h4>Candilib</h4>
+            <span>Rencontre avec les moniteurs</span> </div>
+          </a> </div>
+        <div class="col-lg-3 col-md-6 portfolio-item filter-histovec"> <a href="img/portfolio/photo2.jpg"> <img src="img/portfolio/photo2_mini.jpg" alt="">
+          <div class="details">
+            <h4>Histovec</h4>
             <span>Alored dono par</span> </div>
           </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web"> <a href="img/portfolio/photo2.jpg"> <img src="img/portfolio/photo2_mini3.jpg" alt="">
+        <div class="col-lg-3 col-md-6 portfolio-item filter-candilib"> <a href="img/portfolio/photo3.jpg"> <img src="img/portfolio/photo3_mini.jpg" alt="">
           <div class="details">
-            <h4>Web 2</h4>
+            <h4>Candilib</h4>
+            <span>Point sur l'avancement du projet</span> </div>
+          </a> </div>
+        <div class="col-lg-3 col-md-6 portfolio-item filter-polex"> <a href="img/portfolio/photo4.jpg"> <img src="img/portfolio/photo4_mini.jpg" alt="">
+          <div class="details">
+            <h4>Polex</h4>
             <span>Alored dono par</span> </div>
           </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app"> <a href="img/portfolio/photo3.jpg"> <img src="img/portfolio/photo3_mini3.jpg" alt="">
+        <div class="col-lg-3 col-md-6 portfolio-item filter-histovec"> <a href="img/portfolio/photo5.jpg"> <img src="img/portfolio/photo5_mini.jpg" alt="">
           <div class="details">
-            <h4>Application 3</h4>
+            <h4>Histovec</h4>
             <span>Alored dono par</span> </div>
           </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card"> <a href="img/portfolio/photo4.jpg"> <img src="img/portfolio/photo4_mini2.jpg" alt="">
+        <div class="col-lg-3 col-md-6 portfolio-item filter-histovec"> <a href="img/portfolio/photo6.jpg"> <img src="img/portfolio/photo6_mini.jpg" alt="">
           <div class="details">
-            <h4>Carte 1</h4>
+            <h4>Histovec</h4>
             <span>Alored dono par</span> </div>
-            
-            
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card"> <a href="img/portfolio/photo5.jpg"> <img src="img/portfolio/photo5_mini1.jpg" alt="">
-          <div class="details">
-            <h4>Card 2</h4>
-            <span>Alored dono par</span> </div>
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web"> <a href="img/portfolio/photo6.jpg"> <img src="img/portfolio/photo6_mini2.jpg" alt="">
-          <div class="details">
-            <h4>Web 3</h4>
-            <span>Alored dono par</span> </div>
-
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card"> <a href=""> <img src="img/portfolio/web3.jpg" alt="">
-          <div class="details">
-            <h4>Carte 3</h4>
-            <span>Alored dono par</span> </div>
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app"> <a href=""> <img src="img/portfolio/app2.jpg" alt="">
-          <div class="details">
-            <h4>Application 2</h4>
-            <span>Alored dono par</span> </div>
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-logo"> <a href=""> <img src="img/portfolio/logo1.jpg" alt="">
-          <div class="details">
-            <h4>Logo 1</h4>
-            <span>Alored dono par</span> </div>
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-logo"> <a href=""> <img src="img/portfolio/logo3.jpg" alt="">
-          <div class="details">
-            <h4>Logo 3</h4>
-            <span>Alored dono par</span> </div>
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web"> <a href=""> <img src="img/portfolio/web1.jpg" alt="">
-          <div class="details">
-            <h4>Web 1</h4>
-            <span>Alored dono par</span> </div>
-          </a> </div>
-        <div class="col-lg-3 col-md-6 portfolio-item filter-logo"> <a href=""> <img src="img/portfolio/logo2.jpg" alt="">
-          <div class="details">
-            <h4>Logo 2</h4>
-            <span>Alored dono par</span> </div>
-            
-
-            
-
           </a> </div>
       </div>
     </div>
   </section>
   <!-- fin section portfolio -->
   <!-- debut section team -->
- <section id="team">
-    <div class="container wow fadeInUp">
+  <section id="team">
+    <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
       <div class="section-header">
         <h3 class="section-title">Équipe</h3>
         <p class="section-description">Les différentes personnes ayant contribué aux startups hébergées au LAB MI</p>
@@ -276,59 +205,34 @@
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="img/equipe_lab/philippe.jpg" alt=""></div>
+            <div class="pic"><img src="img/equipe/philippe_bron.jpg" alt=""></div>
             <h4>Philippe BRON </h4>
             <span>Pilote LAB</span>
-            <div class="social">
-              <a href="https://github.com/philippeBron" aria-label="github"target="_blank" alt="ouverture github"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/philippe_bron" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              
-              <a href="https://fr.linkedin.com/in/philippebron" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true" ></i></a>
-            </div>
+            <div class="social"> <a href="https://github.com/philippeBron" aria-label="github" target="_blank" alt="ouverture github"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="https://twitter.com/philippe_bron" aria-label="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="https://fr.linkedin.com/in/philippebron" aria-label="linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="img/equipe.jpg" alt=""></div>
+            <div class="pic"><img src="img/equipe/fabien_antoine1.jpg" alt=""></div>
             <h4>Fabien ANTOINE</h4>
             <span>Leadtech</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="https://github.com/rhanka" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="img/equipe.jpg" alt=""></div>
+            <div class="pic"><img src="img/equipe/laurent_dupont1.png" alt=""></div>
             <h4>Laurent DUPONT</h4>
             <span>Leadtech</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="https://github.com/duplau" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="img/equipe.jpg" alt=""></div>
+            <div class="pic"><img src="img/equipe/dominique_lequepeys1.jpg" alt=""></div>
             <h4>Dominique LEQUEPEYS</h4>
             <span>Coach</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="https://github.com/dlequepeys" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -336,13 +240,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Richard VIOLET</h4>
             <span>Intrapreneur</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -350,13 +248,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Frédéric GILLODES</h4>
             <span>Intrapreneur</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="#" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -364,27 +256,15 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Philippe TARDIEU</h4>
             <span>Infographiste-Ergonome</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="#" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="img/equipe.jpg" alt=""></div>
+            <div class="pic"><img src="img/equipe/amine_fendri1.jpg" alt=""></div>
             <h4>Amine FENDRI</h4>
             <span>PO miroir</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="https://github.com/amine-fendri" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -392,13 +272,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Claire LEPONT</h4>
             <span>Développeuse</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -406,13 +280,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Adrien FRUMENCE</h4>
             <span>Datascientist</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -420,13 +288,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Valérie PROTASSIEFF</h4>
             <span>Experte DSR</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -434,13 +296,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Simon CAQUE</h4>
             <span>Expert DSR</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -448,27 +304,15 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Baudoin TRAN</h4>
             <span>Développeur</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="member">
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Philippe LIBAT</h4>
-            <span>Exoert cloud & DevOps</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <span>Exoert cloud &amp; DevOps</span>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -476,13 +320,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Stéphane VDOVENKO</h4>
             <span>Architecte</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -490,13 +328,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Abibatou</h4>
             <span>Datascientist</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -504,13 +336,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Amandine</h4>
             <span>Experte DSR</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -518,13 +344,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Jean-Pierre FIALEIX</h4>
             <span>Expert DSR</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -532,13 +352,7 @@
             <div class="pic"><img src="img/equipe.jpg" alt=""></div>
             <h4>Chrsitophe LAZANTSY</h4>
             <span>Développeur</span>
-            <div class="social">
-              <a href="" aria-label="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="" aria-label="twitter"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="" aria-label="facebook"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="" aria-label="google+"target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a href="" aria-label="linkedin"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
+            <div class="social"> <a href="" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="" aria-label="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
           </div>
         </div>
       </div>
@@ -550,49 +364,29 @@
     <div class="container wow fadeInUp">
       <div class="section-header">
         <h3 class="section-title">Contact</h3>
-        <p class="section-description">Vous avez des questions, des remarques ou des propositions : n'hésitez pas à nous laisser un message.</p>
+        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
       </div>
     </div>
     <div class="container wow fadeInUp">
       <div class="row justify-content-center">
         <div class="col-lg-3 col-md-4">
           <div class="info">
-            <a href="https://www.google.fr/maps/place/40+Avenue+des+Terroirs+de+France,+75012+Paris/@48.8316673,2.3863445,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6723f569f9469:0xcfdae17f9b5eea15!8m2!3d48.8316638!4d2.3885332" class="adresse" aria-label="adresse" target="_blank">
-            <div> <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <div> <i class="fa fa-map-marker"></i>
               <p>40, avenue des Terroirs de France<br>
                 75012 PARIS</p>
             </div>
-            <div>
-              <a href="mailto:beta@intenieur.gouv.fr?subject=[contact-beta]">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <p>beta@intenieur.gouv.fr</p>
-              </a>
+            <div><i class="fa fa-envelope"></i>
+              <p class="m-b-40">info@exemple.fr</p>
             </div>
-            <!--
-            <div> <i class="fa fa-phone"></i>
-              <p>01.02.03.04.05</p>
+            <div><i class="fa fa-twitter"></i>
+              <p class="tel">@lab_mi</p>
             </div>
-            -->
           </div>
-          <div>
-            <a href="https://twitter.com/LAB_MinInt" class="twitter" aria-label="twitter" target="_blank">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-o fa-stack-2x" aria-hidden="true"></i>
-                <i class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i>
-              </span>
-              @lab_mi
-            </a>
-            <!--
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            -->
-          </div>
+          <div class="social-links"> <a href="https://www.google.fr/maps/place/40+Avenue+des+Terroirs+de+France,+75012+Paris/@48.8316673,2.3863445,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6723f569f9469:0xcfdae17f9b5eea15!8m2!3d48.8316638!4d2.3885332" class="instagram" target="_blank"><i class="fa fa-map-marker"></i></a> <a href="mailto:beta@intenieur.gouv.fr" class="google-plus"target="_blank"><i class="fa fa-envelope"></i></a> <a href="#" class="twitter"target="_blank"><i class="fa fa-twitter"></i></a> </div>
         </div>
         <div class="col-lg-5 col-md-8">
           <div class="form">
-            <div id="sendmessage">Votre message a bien été envoyé. Merci de votre contribution !</div>
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
@@ -631,7 +425,7 @@
 </footer>
 <!-- fin footer -->
 <!-- debut chevron  -->
-<a href="#" class="back-to-top" aria-label="Retour au début"><i class="fa fa-chevron-up" arria-hidden="true"></i></a>
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 <!-- fin chevron  -->
 <!-- javaScript -->
 <script src="lib/jquery/jquery.min.js"></script>
