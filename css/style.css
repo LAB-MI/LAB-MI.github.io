@@ -800,8 +800,8 @@ main {margin-top: 30px;}
 
 /* Team Section
 --------------------------------*/
-#team {
-  background:#f7f7f7;
+#team, #demarche {
+  background:#fff;
   padding:80px 0 60px 0;
 }
 
