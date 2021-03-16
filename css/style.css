@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   padding:30px 0;
   height:92px;
   position:fixed;
+  background: rgba(52, 59, 64, 0.9);
   left:0;
   top:0;
   right:0;
@@ -469,7 +470,10 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color:#fff;
 }
-
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+main {margin-top: 30px;}
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -790,7 +794,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Team Section
 --------------------------------*/
-#team {
+#team, #demarche {
   background:#fff;
   padding:80px 0 60px 0;
 }
