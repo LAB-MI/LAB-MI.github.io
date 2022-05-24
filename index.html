@@ -23,7 +23,12 @@
   <!-- debut header -->
   <header id="header">
     <div class="container">
-      <div id="logo" class="pull-left"> <a href="#haut"><img src="img/logo_metiers/lab_logo_b_p1.png" alt="" title="" /></a> </div>
+      <a href="#haut">
+        <span id="logo" class="pull-left"> 
+          <img class="marianne" src="img/logo_metiers/bloc-marianne-small.png" alt="" title="" />
+          <img src="img/logo_metiers/lab_logo_b_p1.png" alt="" title="" />
+        </span>
+      </a>
       <!-- debut nav-menu-container -->
       <nav id="nav-menu-container">
         <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
@@ -31,7 +36,6 @@
           <li><a href="#about">Le LAB</a></li>
           <li><a href="#services">Nos startups</a></li>
           <li><a href="#demarche">La démarche</a></li>
-          <li><a href="#portfolio">Galerie</a></li>
           <li><a href="#team">Equipe</a></li>
           <!--
         <li class="menu-has-children"><a href="">Menu</a>
@@ -76,21 +80,31 @@
         <div class="row about-container">
           <div class="col-lg-6 content order-lg-1 order-2">
             <h3 class="title">Le pitch du LAB MI</h3>
-            <p> Depuis mars 2018, le LAB MI accueille et fait grandir les startups issues des propositions d'intrapreneu·r·ses du ministère de l'intérieur. Les produits ainsi développés s'inscrivent dans la stratégie de transformation numérique du ministère
-              en apportant des solutions innovantes aux usagers et aux agents. </p>
+            <p> Le laboratoire innovation ou « Lab’Mi » est la structure d’accompagnement des projets d’innovation numérique du Ministère de l’Intérieur.</p>
+            <p> Son but est de résoudre des problèmes des usagers par des services numériques en permettant à tout agent ou service du ministère de déposer son/ses idées d’innovation, 
+              d’en défendre la valeur devant l’administration et d’en tester rapidement le concept auprès des utilisateurs.</p>
+            <p>Le Lab’Mi accueille et fait grandir les <a href="https://beta.gouv.fr/approche" target="_blank" title="Nouvelle fenêtre (https://beta.gouv.fr/approche)">startups d'État</a>  issues des propositions des intrapreneurs. Les produits ainsi développés 
+              s'inscrivent dans la stratégie de transformation numérique du ministère en apportant des solutions innovantes aux usagers et aux agents.</p>
             <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
               <div class="icon"><i class="fa fa-flask" aria-hidden="true"></i></div>
-              <h4 class="title"> Le LAB MI n'est pas une DSI </h4>
-              <p class="description"> Le cycle de vie d’une startup se termine par son intégration à coût marginal dans le système d’information du ministère de l'intérieur. Elle contribue ainsi à le transformer en lui transférant les principes des méthodes agiles &amp; lean,
-                d'équipe pluridisciplinaire intégrée, de design par la confiance etc. Pour cela, les agents en charge du système d'information sont embarqués au plus tôt dans les startups afin d'anticiper au mieux cette reprise. </p>
-              <p class="description"><b> Le LAB MI est donc responsable d’un flux de services numériques et non le dépositaire d’un stock.</b> </p>
+              <h4 class="title"> Une équipe pluridisciplinaire tournée vers les usagers </h4>
+              <p class="description"> Le laboratoire innovation est intégré dans la direction numérique du ministère. Il dispose des moyens humains pour :</p>
+              <ul>
+                <li>diagnostiquer et investiguer les idées remontées,</li>
+                <li>accompagner en mode agile les agents et services porteurs d’innovation (dits « intrapreneurs »),</li>
+                <li>favoriser l’expérimentation terrain, la rencontre et les tests avec les utilisateurs,</li>
+                <li>développer les fonctionnalités et l’usage des produits numériques innovants, en mesurer l’impact,</li>
+                <li>consolider les produits en prenant en compte les retours des usagers,</li>
+                <li>transmettre aux directions métiers, en méthode agile, les produits développés afin d’en permettre leur reprise et leur maintenance,</li>
+                <li>acculturer les agents et services aux méthodes de conception agile centrées sur les besoins utilisateurs.</li>
+              </ul>
             </div>
             <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
               <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
               <h4 class="title"> L'écosystème </h4>
-              <p class="description"> Le LAB MI fait partie de l’écosystème beta.gouv.fr qui réunit depuis 2013 de nombreux incubateurs autonomes. Dans ce sens, nous partageons les mêmes objectifs et les mêmes valeurs. Notre ambition est d'amener à l’excellence les individus
-                que nous accueillons – quel que soit leur rôle : responsable de produit, informaticien·ne, coach, designer, chargé·e de développement… – pour construire les services publics les plus utiles à nos concitoyens. </p>
-              <p class="description"> Cet engagement est décrit dans le manifeste d'un incubateur disponible sur le site<a href="https://beta.gouv.fr/approche/manifeste" target="_blank"> beta.gouv.fr.</a> </p>
+              <p class="description"> Le LAB MI fait partie de l’écosystème <a href="https://beta.gouv.fr"  target="_blank" title="Nouvelle fenêtre (https://beta.gouv.fr)">beta.gouv.fr</a> qui réunit depuis 2013 de nombreux incubateurs autonomes. Dans ce sens, nous partageons les mêmes objectifs et les mêmes valeurs. Notre ambition est d'amener à l’excellence les individus
+                que nous accueillons – quel que soit leur rôle : intrapreneur/agent du ministère, développeur, devops, coach, designer, chargé·e de développement…  – pour construire les services publics les plus utiles à nos concitoyens. </p>
+              <p class="description"> Cet engagement est décrit dans le manifeste d'un incubateur disponible sur le site<a href="https://beta.gouv.fr/approche/manifeste" target="_blank" title="Nouvelle fenêtre (https://beta.gouv.fr/approche.manifeste)"> beta.gouv.fr</a>.</p>
             </div>
           </div>
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"></div>
@@ -101,38 +115,74 @@
     <!-- debut section services -->
     <section id="services">
       <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <!------------------------------------------------  INVESTIGATION  --------------------------------------------------------------->
         <div class="section-header">
           <h3 class="section-title">Nos startups</h3>
-          <h4 class="section-description">En phase d'expérimentation</h4>
+          <h4 class="section-description">En phase d'investigation</h4>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="box">
-              <div class="icon"><a href="https://beta.gouv.fr/startups/fedel.html" aria-label="Signature"><i class="fas fa-file-signature" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="https://beta.gouv.fr/startups/fedel.html">FEDEL-DM</a></h4>
-              <p class="description">Déclarer facilement sa manifestation sur la voie publique</p>
+              <div class="icon"><a aria-label="Rendez-vous en préfecture"><i class="fas fa-calendar-check" aria-hidden="true"></i></a></div>
+              <h4 class="title">Rendez-vous en préfecture</h4>
+              <p class="description">Faciliter la prise de rendez-vous en préfecture.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="box">
+              <div class="icon"><a href="https://beta.gouv.fr/startups/urgencevie.html" aria-label="Urgence vie"><i class="fas fa-heartbeat" aria-hidden="true"></i></a></div>
+              <h4 class="title"><a href="https://beta.gouv.fr/startups/urgencevie.html">Urgence vie</a></h4>
+              <p class="description">Sauver des vies en partageant les informations d'accès au logement.</p>
             </div>
           </div>
         </div>
-        <div class="section-header">
+
+        <!------------------------------------------------  CONCEPTION  --------------------------------------------------------------->
+        <!-- <div class="section-header">
           <h3 class="section-title"></h3>
-          <h4 class="section-description">En phase de développement</h4>
+          <h4 class="section-description">En phase de conception</h4>
         </div>
         <div class="row">
-           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="box">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="box">
+            </div>
+          </div>
+        </div> -->
+
+        <!------------------------------------------------  CONSTRUCTION  --------------------------------------------------------------->
+        <!-- <div class="section-header">
+          <h3 class="section-title"></h3>
+          <h4 class="section-description">En phase de construction</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="box">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="box">
+            </div>
+          </div>
+        </div> -->
+
+        <!------------------------------------------------  ACCELERATION  --------------------------------------------------------------->
+        <div class="section-header">
+          <h3 class="section-title"></h3>
+          <h4 class="section-description">En phase d'accélération</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="box">
               <div class="icon"><a href="https://beta.gouv.fr/startups/psij.html" aria-label="Empreinte digitale"><i class="fas fa-fingerprint" aria-hidden="true"></i></a></div>
               <h4 class="title"><a href="https://beta.gouv.fr/startups/psij.html">PSIJ (Portail de Saisine de l'Identité Judiciaire)</a></h4>
               <p class="description">Systématiser la recherche d'indices et traces</p>
             </div>
           </div>
-        </div>
-        <div class="section-header">
-          <h3 class="section-title"></h3>
-          <h4 class="section-description">En phase de transition</h4>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="box">
               <div class="icon"><a href="https://beta.gouv.fr/startups/candilib.html" aria-label="Permis de conduire"><i class="fas fa-taxi" aria-hidden="true"></i></a></div>
               <h4 class="title"><a href="https://beta.gouv.fr/startups/candilib.html">CandiLib</a></h4>
@@ -140,78 +190,89 @@
             </div>
           </div>
         </div>
-        <div class="section-header">
-          <h3 class="section-title"></h3>
-          <h4 class="section-description">En phase de consolidation</h4>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-            <div class="box">
-              <div class="icon"><a href="https://histovec.interieur.gouv.fr" aria-label="une voiture"><i class="fa fa-car-side" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="https://histovec.interieur.gouv.fr">Histovec</a></h4>
-              <p class="description">Acheter un véhicule d'occasion en confiance en connaissant son historique.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-            <div class="box">
-              <div class="icon"><a href="https://beta.gouv.fr/startups/polex.html" aria-label="Point d'exclamation"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="https://beta.gouv.fr/startups/polex.html">Polex</a></h4>
-              <p class="description">Détecter les fraudes organisées à l'examen du code de la route.</p>
-            </div>
-          </div>
-        </div>
+
+        <!------------------------------------------------  PAUSE  --------------------------------------------------------------->
         <div class="section-header">
           <h3 class="section-title"></h3>
           <h4 class="section-description">En pause</h4>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="box">
-              <div class="icon"><a href="https://beta.gouv.fr/startups/covoit'scelles.html" aria-label="Camion"><i class="fa fa-truck" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="https://beta.gouv.fr/startups/covoit'scelles.html">Covoit'Scellés</a></h4>
-              <p class="description">L’application de co-voiturage de scellés pour la Police et la Gendarmerie</p>
+              <div class="icon"><a href="https://beta.gouv.fr/startups/dialogue.operationnel.html" aria-label="Signature"><i class="fas fa-file-signature" aria-hidden="true"></i></a></div>
+              <h4 class="title"><a href="https://beta.gouv.fr/startups/dialogue.operationnel.html">Dialogue Opérationel</a></h4>
+              <p class="description">Faciliter la concertation et la remontée des besoins collectifs et individuels des agents de la police nationale</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+        </div>
+
+        <!------------------------------------------------  CONSOLIDATION  --------------------------------------------------------------->
+        <!-- <div class="section-header">
+            <h3 class="section-title"></h3>
+          <h4 class="section-description">En phase de consolidation</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="box">
-              <div class="icon"><a href="https://beta.gouv.fr/startups/psp.html" aria-label="Maison laptop"><i class="fa fa-laptop-house" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="https://beta.gouv.fr/startups/psp.html">Portail Suivi Plaintes</a></h4>
-              <p class="description">Suivre sa plainte en ligne</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="box">
-              <div class="icon"><a href="https://beta.gouv.fr/startups/jesaisfaire.html" aria-label="Je sais faire"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="https://beta.gouv.fr/startups/jesaisfaire.html">JeSaisFaire</a></h4>
-              <p class="description">Réconcilier acheteurs et PME avec les marchés publics</p>
             </div>
           </div>
- 
- 
+        </div> -->
+
+        <!------------------------------------------------  TRANSFERT  --------------------------------------------------------------->
+        <div class="section-header">
+        <h3 class="section-title"></h3>
+        <h4 class="section-description">Startups transférées</h4>
+        </div>
+        <div class="row">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <div class="box">
+            <div class="icon"><a href="https://histovec.interieur.gouv.fr" aria-label="une voiture"><i class="fa fa-car-side" aria-hidden="true"></i></a></div>
+            <h4 class="title"><a href="https://histovec.interieur.gouv.fr">Histovec</a></h4>
+            <p class="description">Acheter un véhicule d'occasion en confiance en connaissant son historique.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <div class="box">
+            <div class="icon"><a href="https://beta.gouv.fr/startups/polex.html" aria-label="Point d'exclamation"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></a></div>
+            <h4 class="title"><a href="https://beta.gouv.fr/startups/polex.html">Polex</a></h4>
+            <p class="description">Détecter les fraudes organisées à l'examen du code de la route.</p>
+          </div>
+        </div>
       </div>
     </section>
     <!-- fin section services -->
-    <!-- debut section demarche -->
-    <section id="demarche">
+    <!-- debut section call-to-action -->
+    <!-- <section id="call-to-action">
       <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-          <div class="section-header">
-            <h3 class="section-title">La démarche</h3>
-          </div>
-          <div class="col-lg-12 text-center text-lg-left">
-            <img src="./img/ideation-techmiup.png" width="100%" height="auto">
-          <!-- <div class="col-lg-9 text-center text-lg-left">
-            
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Proposez votre idée</h3>
             <p class="cta-text"> Vous êtes le témoin d’irritants récurrents pour les usagers ou les agents et vous avez une idée de solution numérique pour remédier au problème identifié ? <br> Sans être nécessairement un(e) expert(e) en informatique vous êtes prêt(e) à vous investir six mois autour d’une équipe mobilisée pour réussir ? </p>
             <p class="cta-text"> Dans ce cas, contactez nous en utilisant le formulaire en bas de cette page ou en utilisant le bouton "Contactez nous" ci-contre, votre idée sera peut-être retenue et vous sélectionné pour défendre votre projet ! </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center"> <a class="cta-btn align-middle" href="#contact">Contactez nous</a> </div>
-        </div> -->
         </div>
+      </div>
+    </section> -->
+    <!-- fin section call-to-action -->
+    <!-- debut section demarche -->
+    <section id="demarche">
+      <div class="container wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+          <div class="section-header">
+            <h3 class="section-title">La démarche</h3>
+          </div>
+          <div class="col-lg-12 text-center text-lg-left">
+            <img src="./img/process-ideation.png" width="100%" height="auto">
+          </div>
       </div>
     </section>
     <!-- fin section demarche -->
     <!-- debut section portfolio -->
-    <section id="portfolio">
+    <!-- <section id="portfolio">
       <div class="container wow fadeInRight">
         <div class="section-header">
           <h3 class="section-title">Galerie</h3>
@@ -275,11 +336,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- fin section portfolio -->
     <!-- debut section team -->
     <section id="team">
-      <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <div class="container wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
         <div class="section-header">
           <h3 class="section-title">Équipe</h3>
           <p class="section-description">Les différentes personnes contribuant aux startups hébergées au LAB MI</p>
@@ -329,13 +390,6 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/equipe/petit/pli.jpeg" alt=""></div>
-              <h4>Philippe LIBAT</h4>
-              <span>Expert cloud &amp; DevOps</span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
               <div class="pic"><img src="img/equipe/silhouette-h.png" alt=""></div>
               <h4>Frédéric DOL</h4>
               <span>Coach agile</span>
@@ -351,43 +405,8 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/equipe/silhouette-h.png" alt=""></div>
-              <h4>Bernard CHOPPY</h4>
-              <span>Intrapreneur</span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/dominique_lequepeys.jpg" alt=""></div>
-              <h4>Dominique LEQUEPEYS</h4>
-              <span>Coach agile</span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/xaviera_mcgown.jpg" alt=""></div>
-              <h4>Xaviera MC GOWN</h4>
-              <span>Coach agile</span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/cyril_cincet.jpg" alt=""></div>
-              <h4>Cyril CINCET</h4>
-              <span>Coach agile</span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/silhouette-h.png" alt=""></div>
               <h4>Frédéric GILLODES</h4>
               <span>Intrapreneur</span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/silhouette-f.png" alt=""></div>
-              <h4>Valérie PROTASSIEFF</h4>
-              <span>Experte DSR</span>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -399,19 +418,103 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/equipe/petit/jerem.jpeg" alt=""></div>
-              <h4>Jeremy CLAUDANT</h4>
-              <span>Développeur</span>
+              <div class="pic"><img src="img/equipe/petit/thibault_colin.jpg" alt=""></div>
+              <h4>Thibault COLIN</h4>
+              <span>Architecte DevOps</span>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/equipe/silhouette-h.png" alt=""></div>
-              <h4>Baptiste CARPANO</h4>
-              <span>Product owner délégué</span>
+              <div class="pic"><img src="img/equipe/petit/yoann_arthaud.jpg" alt=""></div>
+              <h4>Yoann ARTHAUD</h4>
+              <span>Coach agile</span>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/equipe/petit/claire_nollet.jpg" alt=""></div>
+              <h4>Claire NOLLET</h4>
+              <span>Apprentie développeuse</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/equipe/petit/anna_theng-lim-chong.jpg" alt=""></div>
+              <h4>Anna THENG-LIM-CHONG</h4>
+              <span>Apprentie UX</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/equipe/petit/frederic_auffret.jpg" alt=""></div>
+              <h4>Frédéric AUFFRET</h4>
+              <span>Intrapreneur</span>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="section-header">
+          <h3 class="section-title">Anciens membres du LAB</h3>
+          <p class="section-description">Un grand merci à tous ceux qui ont contribués aux succès du Lab MI</p>
+        </div>
+       <div class="row"> 
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/silhouette-h.png" alt=""></div>
+            <h4>Bernard CHOPPY</h4>
+            <span>Intrapreneur</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/petit/pli.jpeg" alt=""></div>
+            <h4>Philippe LIBAT</h4>
+            <span>Expert cloud &amp; DevOps</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/silhouette-f.png" alt=""></div>
+            <h4>Valérie PROTASSIEFF</h4>
+            <span>Experte DSR</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/silhouette-h.png" alt=""></div>
+            <h4>Baptiste CARPANO</h4>
+            <span>Product owner délégué</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/petit/dominique_lequepeys.jpg" alt=""></div>
+            <h4>Dominique LEQUEPEYS</h4>
+            <span>Coach agile</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/petit/xaviera_mcgown.jpg" alt=""></div>
+            <h4>Xaviera MC GOWN</h4>
+            <span>Coach agile</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/petit/cyril_cincet.jpg" alt=""></div>
+            <h4>Cyril CINCET</h4>
+            <span>Coach agile</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/equipe/petit/jerem.jpeg" alt=""></div>
+            <h4>Jeremy CLAUDANT</h4>
+            <span>Développeur</span>
+          </div>
+        </div>         
+         <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/equipe/petit/sophie_guerlais.png" alt=""></div>
               <h4>Sophie GUERLAIS</h4>
@@ -425,13 +528,6 @@
               <span>Chef de projet</span>
             </div>
           </div>
-        </div>
-<br><br>
-        <div class="section-header">
-          <h3 class="section-title">Anciens membres du LAB</h3>
-          <p class="section-description">Un grand merci à tous ceux qui ont contribués aux succès du Lab MI</p>
-        </div>
-       <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/equipe/petit/philippe_bron.jpg" alt=""></div>
@@ -553,7 +649,7 @@
       <div class="container wow fadeInRight">
         <div class="section-header">
           <h3 class="section-title">Contact</h3>
-          <p class="section-description">Si vous souhaitez nous faire part d'une remarque, d'une suggestion ou encore juste prendre contact.</p>
+          <p class="section-description">Vous souhaitez déposer votre idée d'innovation numérique, nous faire part d'une remarque ou d'une suggestion :</p>
         </div>
         <div class="container wow fadeInUp">
           <div class="row justify-content-center">
@@ -565,14 +661,14 @@
                 <div><i class="fa fa-envelope"></i>
                   <p class="m-b-40"><a href="mailto:beta@interieur.gouv.fr">beta@interieur.gouv.fr</a></p>
                 </div>
-                <div><i class="fab fa-twitter"></i>
+                <!-- <div><i class="fab fa-twitter"></i>
                   <p class="tel">@LAB_MinInt</p>
-                </div>
+                </div> -->
               </div>
               <div class="social-links"> 
                 <a href="https://www.google.fr/maps/place/40+Avenue+des+Terroirs+de+France,+75012+Paris/@48.8316673,2.3863445,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6723f569f9469:0xcfdae17f9b5eea15!8m2!3d48.8316638!4d2.3885332" class="instagram" target="_blank"><i class="fa fa-map-marker"></i></a>                
-                <a href="mailto:beta@interieur.gouv.fr" class="google-plus"><i class="fa fa-envelope"></i></a> 
-                <a href="https://twitter.com/LAB_MinInt" class="twitter"><i class="fab fa-twitter"></i></a> 
+                <a href="mailto:beta@intenieur.gouv.fr" class="google-plus"><i class="fa fa-envelope"></i></a> 
+                <!-- <a href="https://twitter.com/LAB_MinInt" class="twitter"><i class="fab fa-twitter"></i></a>  -->
               </div>
             </div>
             <!-- <div class="col-lg-5 col-md-8">
