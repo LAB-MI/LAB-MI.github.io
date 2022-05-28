@@ -498,9 +498,9 @@ main {margin-top: 30px;}
   color:#999;
 }
 
-/* About Us Section
+/* About Us Section (+ Legal section)
 --------------------------------*/
-#about {
+#about, #legal {
   background:#fff;
   padding:80px 0;
 }
@@ -515,14 +515,16 @@ main {margin-top: 30px;}
   background:#fff;
 }
 
-#about .about-container .title {
+#about .about-container .title,
+#legal .legal-container .title {
   color:#333;
   font-weight:700;
   font-size:32px;
 }
 
 @media (max-width:768px) {
-  #about .about-container .title {
+  #about .about-container .title,
+  #legal .legal-container .title {
     padding-top:15px;
   }
 }
